@@ -62,7 +62,7 @@
 		  if (c >= 'a' && c <= 'z')
 		  {
 		    flashSuccession(letter[c - 'a']);
-	    }
+	          }
 		  else if (c >= 'A' && c <= 'Z')
 		  {
 		    flashSuccession(letter[c - 'A']);
@@ -77,5 +77,5 @@
 		{
 		  delay(timeDelay * 3);  
 		}
-	 }
+	  }
 	}
